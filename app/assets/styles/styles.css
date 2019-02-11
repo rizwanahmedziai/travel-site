@@ -1,13 +1,3 @@
-$mainBlue: #2f5572;
-body {
-  color: $mainBlue;
-  padding: 10px;
-  margin: 10px;
-  columns: 300px 2;
-}
-
-body {
-  a {
-    color: $mainBlue;
-  }
-}
+@import 'modules/_large-hero';
+@import 'base/_global.css';
+@import 'normalize.css';
